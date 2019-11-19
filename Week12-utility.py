@@ -57,5 +57,22 @@ def Intersection(a, b):
             list.append(b[i])
     return list
 
+def NotIn(a, b):
+    list = []
+    for i in range(len(a)):
+        if a[i] not in b:
+            list.append(a[i])
+    return list
+
+
+
+
+
+
+
+
+
+
+    
 
 
