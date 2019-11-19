@@ -47,4 +47,15 @@ def Union(a, b):
             list.append(b[i])
     return list
 
+def Intersection(a, b):
+    list = []
+    for i in range(len(a)):
+        if a[i] in b and a[i] not in list:
+            list.append(a[i])
+    for i in range(len(b)):
+        if b[i] in a and b[i] not in list:
+            list.append(b[i])
+    return list
+
+
 
