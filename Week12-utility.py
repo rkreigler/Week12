@@ -15,4 +15,9 @@ def LoadFile(filename):
     for i in range(1,len(list)):
         list[i] = list[i][1:]
     return list
-        
+
+def UpdateString(s1, s2, n):
+    s1 = s1[0:n] + s2 + s1[n+1:]
+    print(s1)
+
+
