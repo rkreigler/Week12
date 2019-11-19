@@ -29,3 +29,12 @@ def FindWordCount(a, s):
                 count += 1
     return count
 
+def ScoreFinder(a, b, s):
+    for i in range(len(a)):
+        if a[i] == s or a[i].lower() == s:
+            print("OUTPUT", a[i], "got a score of", b[i])
+            break
+        elif i == len(a) - 1:
+            print("OUTPUT player not found")
+
+
