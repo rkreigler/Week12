@@ -1,3 +1,8 @@
+# https://github.com/rkreigler/Week12
+# Ryan Kreigler
+# CSCI 102 - Section C
+# Week 12 - Part B
+
 def PrintOutput(s):
     print("OUTPUT", s)
 
@@ -63,16 +68,3 @@ def NotIn(a, b):
         if a[i] not in b:
             list.append(a[i])
     return list
-
-
-
-
-
-
-
-
-
-
-    
-
-
