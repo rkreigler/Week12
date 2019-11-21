@@ -2,6 +2,7 @@
 # Ryan Kreigler
 # CSCI 102 - Section C
 # Week 12 - Part B
+# branches
 
 def PrintOutput(s):
     print("OUTPUT", s)
